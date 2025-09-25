@@ -38,6 +38,7 @@ class RentalController extends Controller
             'nomber_of_rooms' => $request->input('nomber_of_rooms'),
             'description' => $request->input('description'),
             'equipment' => $request->input('equipment'),
+            'contact_info' => $request->input('contact_info'),
             'image_url' => $request->input('image_url'),
         ]);
         return redirect()->route('rentals.list');
@@ -52,6 +53,7 @@ class RentalController extends Controller
             'nomber_of_rooms' => $request->input('nomber_of_rooms'),
             'decsription' => $request->input('decsription'),
             'equipment' => $request->input('equipment'),
+            'contact_info' => $request->input('contact_info'),
             'image_url' => $request->input('image_url'),
         ]);
 
