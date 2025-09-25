@@ -1,3 +1,6 @@
+@extends('app')
+@section('content')
+
 <h1>Edit a Rental</h1>
 
 <form action="{{ route ('rentals.update', $rentals->id) }}" method="POST">
@@ -31,3 +34,5 @@
     <a href="{{ route('rentals.list') }}">Back to all the rentals</a>
     
 </form>
+
+@endsection
