@@ -15,7 +15,7 @@ class RentalController extends Controller
         public function list_all()
     {
         $rentals = Rentals::all();
-        return $rentals;
+        return view('rentals.all', compact('rentals'));
     }
 
         public function create()

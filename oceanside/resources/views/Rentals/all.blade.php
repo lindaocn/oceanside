@@ -3,10 +3,10 @@
 
 <h1>Listing of the rentals</h1>
 <u>
-    @foreach ($rentals as $rentals)
+    @foreach ($rentals as $rental)
         <li>
-            <a href="{{ route('rentals.show', $rentals->id) }}">
-                {{ $rentals->name }} - {{ $rentals->location }} - ${{ $rentals->price_per_night }} per night - {{ $rentals->nomber_of_rooms }} rooms - {{ $rentals->description }} - {{ $rentals->equipment }} - <img src="{{ $rentals->image_url }}">
+            <a href="{{ route('rentals.show', $rental->id) }}">
+                {{ $rental->name }} - {{ $rental->location }} - ${{ $rental->price_per_night }} per night - {{ $rental->nomber_of_rooms }} rooms - {{ $rental->description }} - {{ $rental->equipment }} - <img src="{{ $rental->image_url }}">
             </a>
         </li>   
     @endforeach
