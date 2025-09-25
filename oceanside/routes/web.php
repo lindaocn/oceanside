@@ -6,8 +6,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::prefix('rentals')->name('rental.')->group(function () {
+Route::prefix('rentals')->name('rentals.')->group(function () {
     // show
-    Route::get('show/{id}', [PokemonController::class, 'show'])->name('show');
+    Route::get('show/{id}', [RentalController::class, 'show'])->name('show');
 });
 
