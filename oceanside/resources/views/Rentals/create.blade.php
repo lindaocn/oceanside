@@ -1,3 +1,6 @@
+@extends('app')
+@section('content')
+
 <h1>Creation of a new rental</h1>
 
 <form action="{{ route('rentals.store')}}" method="POST">
@@ -29,3 +32,5 @@
 
     <input type="submit" value="Create a new rental">
 </form>
+
+@endsection
