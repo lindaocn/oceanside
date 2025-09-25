@@ -1,7 +1,7 @@
 @extends('app')
 @section('content')
 
-<h1>Listing of the rentals</h1>
+<h1>Current Rentals</h1>
 <u>
     @foreach ($rentals as $rental)
         <li>
