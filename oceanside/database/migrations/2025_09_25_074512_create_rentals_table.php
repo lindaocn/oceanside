@@ -20,6 +20,7 @@ return new class extends Migration
             $table->integer('nomber_of_rooms');
             $table->text('description')->nullable();
             $table->text('equipment')->nullable();
+            $table->string('contact_info')->nullable();
             $table->string('image_url')->nullable();
             // $table->softDeletes();
         });
