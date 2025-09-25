@@ -24,5 +24,5 @@
     <label for="image_url">Image URL:</label>
     <input type="text" id="image_url" name="image_url" required><br><br>
 
-    <input type="submit" value="Créer le Pokémon">
+    <input type="submit" value="Create a new rental">
 </form>
