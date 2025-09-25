@@ -27,5 +27,7 @@
     <input type="text" id="image_url" name="image_url"><br><br>
 
     <input type="submit" value="Edit Rental">
+
+    <a href="{{ route('rentals.list') }}">Back to all the rentals</a>
     
 </form>
