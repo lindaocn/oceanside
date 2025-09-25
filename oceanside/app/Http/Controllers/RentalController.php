@@ -12,5 +12,10 @@ class RentalController extends Controller
         $rentals = Rentals::findOrFail($id);
         return view('rentals.show', compact('rentals'));
     }
+        public function list_all()
+    {
+        $rentals = Rentals::all();
+        return $rentals;
+    }
 
 }
