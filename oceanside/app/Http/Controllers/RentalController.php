@@ -12,22 +12,21 @@ class RentalController extends Controller
         $rentals = Rentals::findOrFail($id);
         return view('rentals.show', compact('rentals'));
     }
-        public function list_all()
+    public function list_all()
     {
         $rentals = Rentals::all();
         return view('rentals.all', compact('rentals'));
     }
 
-        public function create()
+    public function create()
     {
         return view('rentals.create');
     }
 
-        public function edit($id)
+    public function edit($id)
     {
         $rentals = Rentals::findOrFail($id);
         return view('rentals.edit', compact('rentals'));
-
     }
 
         public function store(Request $request)
@@ -44,7 +43,7 @@ class RentalController extends Controller
         return redirect()->route('rentals.list');
     }
 
-        public function update(Request $request, $id)
+    public function update(Request $request, $id)
     {
         $rentals = Rentals::findOrFail($id);
         $rentals->update([
@@ -56,10 +55,10 @@ class RentalController extends Controller
             'image_url' => $request->input('image_url'),
         ]);
 
-        return redirect()->route('rentals.list');
+    return redirect()->route('rentals.list');
     }
 
-        public function delete($id)
+    public function delete($id)
     {
         $rentals = Rentals::findOrFail($id);
         $rentals->delete();
