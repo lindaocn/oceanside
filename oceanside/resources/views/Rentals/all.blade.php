@@ -12,9 +12,6 @@
             
         </li>   
     @endforeach
-                        <a href="{{ route('rentals.create') }}" 
-           class="inline-block bg-green-600 text-white px-6 py-3 rounded-md hover:bg-green-700 transition duration-200">
-            + Add New Rental
         </a>
 </u>
 @endsection
