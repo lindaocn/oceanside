@@ -7,3 +7,4 @@
 <img src="{{ $rentals->image_url }}" alt="{{ $rentals->name }}">
 <a href="{{ route('rentals.edit', ['id' => $rentals->id]) }}">Edit this rental</a>
 <a href="{{ route('rentals.list') }}">Back to all the rentals</a>
+<a href="{{ route('rentals.delete', ['id' => $rentals->id]) }}">Delete this rental</a>

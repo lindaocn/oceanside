@@ -62,7 +62,7 @@ class RentalController extends Controller
     {
         $rentals = Rentals::findOrFail($id);
         $rentals->delete();
-        return 'Rental deleted!';
+        return 'Rental deleted!' . redirect()->route('rentals.list');
     }
 
 
