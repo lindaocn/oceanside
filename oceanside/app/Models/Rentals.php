@@ -15,6 +15,7 @@ class Rentals extends Model
         'nomber_of_rooms',
         'description',
         'equipment',
+        'contact_info',
         'image_url',
     ];
 }
