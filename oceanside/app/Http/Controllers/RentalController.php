@@ -18,4 +18,39 @@ class RentalController extends Controller
         return $rentals;
     }
 
+        public function create()
+    {
+        return view('rentals.create');
+    }
+
+        public function edit($id)
+    {
+        $rentals = Rentals::findOrFail($id);
+        return view('rentals.edit', compact('rentals'));
+
+    }
+
+        public function update(Request $request, $id)
+    {
+        $rentals = Rentals::findOrFail($id);
+        $rentals->update([
+            'name' => $request->input('name'),
+            'price_per_night' => $request->input('price_per_night'),
+            'nomber_of_rooms' => $request->input('nomber_of_rooms'),
+            'decsription' => $request->input('decsription'),
+            'equipment' => $request->input('equipment'),
+            'image_url' => $request->input('image_url'),
+        ]);
+
+        return redirect()->route('rentals.list');
+    }
+
+        public function delete($id)
+    {
+        $rentals = Rentals::findOrFail($id);
+        $rentals->delete();
+        return 'Rental deleted!';
+    }
+
+
 }
