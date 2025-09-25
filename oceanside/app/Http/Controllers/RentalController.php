@@ -30,6 +30,20 @@ class RentalController extends Controller
 
     }
 
+        public function store(Request $request)
+    {
+        $rentals = Rentals::create([
+            'name' => $request->input('name'),
+            'location' => $request->input('location'),
+            'price_per_night' => $request->input('price_per_night'),
+            'nomber_of_rooms' => $request->input('nomber_of_rooms'),
+            'description' => $request->input('description'),
+            'equipment' => $request->input('equipment'),
+            'image_url' => $request->input('image_url'),
+        ]);
+        return redirect()->route('rentals.list');
+    }
+
         public function update(Request $request, $id)
     {
         $rentals = Rentals::findOrFail($id);
