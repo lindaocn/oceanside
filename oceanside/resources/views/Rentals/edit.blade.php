@@ -8,7 +8,7 @@
     <label for="location">Location:</label>
     <input type="text" id="location" name="location" value="{{ $rentals->location }}"><br><br>
 
-    <label for="price_per_night">Price Per Night:</label>
+    <label for="price_per_night">Price Per Night (euros):</label>
     <input type="number" id="price_per_night" name="price_per_night" value="{{ $rentals->price_per_night }}"><br><br>
 
     <label for="nomber_of_rooms">Number of Rooms:</label>
