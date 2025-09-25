@@ -1,6 +1,6 @@
 <h1>Creation of a new rental</h1>
 
-<form action="{{ route('rentals.store')}" method="POST">
+<form action="{{ route('rentals.store')}}" method="POST">
     @csrf
     <!-- CSRF token for security -->
     <label for="name">Name:</label>
