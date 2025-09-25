@@ -18,7 +18,7 @@
     <label for="description">Description:</label>
     <input type="text" id="description" name="description" required><br><br>
     
-    <label for="equipment">Description:</label>
+    <label for="equipment">Equipment:</label>
     <input type="text" id="equipment" name="equipment" required><br><br>
 
     <label for="image_url">Image URL:</label>
