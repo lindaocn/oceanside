@@ -21,6 +21,9 @@
     <label for="equipment">Equipment:</label>
     <input type="text" id="equipment" name="equipment" required><br><br>
 
+    <label for="contact_info">Contact Info:</label>
+    <input type="text" id="contact_info" name="contact_info" required><br><br>
+
     <label for="image_url">Image URL:</label>
     <input type="text" id="image_url" name="image_url" required><br><br>
 

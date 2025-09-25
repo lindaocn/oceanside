@@ -20,6 +20,8 @@
     <label for="description">Description:</label>
     <input type="text" id="description" name="description" value="{{ $rentals->description }}"><br><br>
 
+    <label for="contact_info">Contact Info:</label>
+    <input type="text" id="contact_info" name="contact_info" value="{{ $rentals->contact_info}}"><br><br>
 
     <label for="image_url">Image URL:</label>
     <input type="text" id="image_url" name="image_url"><br><br>
