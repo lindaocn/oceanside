@@ -9,6 +9,9 @@
     <label for="location">Location:</label>
     <input type="text" id="location" name="location" required><br><br>
 
+    <label for="nomber_of_rooms">Number of rooms:</label>
+    <input type="number" id="nomber_of_rooms" name="nomber_of_rooms" required><br><br>
+
     <label for="price_per_night">Price per Night:</label>
     <input type="number" id="price_per_night" name="price_per_night" required><br><br>
 
