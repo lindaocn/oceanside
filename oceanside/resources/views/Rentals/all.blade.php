@@ -6,7 +6,7 @@
             @foreach ($rentals as $rental)
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100 border border-light shadow-sm rounded-4" style="background-color: #e3f0ff;">
-                        <img src="{{ $rental->image_url }}" class="card-img-top rounded-top-4" alt="{{ $rental->name }}">
+                        <img src="{{ $rental->image_url }}" class="card-img-top rounded-top-4" style="height:300px; object-fit:cover;" alt="{{ $rental->name }}">
                         <div class="card-body">
                             <h5 class="card-title">
                                 <a href="{{ route('rentals.show', $rental->id) }}">{{ $rental->name }}</a>
