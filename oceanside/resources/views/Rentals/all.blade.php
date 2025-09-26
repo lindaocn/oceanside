@@ -1,7 +1,7 @@
 @extends('app')
 @section('content')
     <div class="mt-4">
-        <h1>Current Rentals</h1>
+        <h1>Available Rentals</h1>
         <div class="row">
             @foreach ($rentals as $rental)
                 <div class="col-12 col-md-4 mb-4">
