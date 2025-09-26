@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - OceanSide Rentals</title>
+    <title>OceanSide Rentals</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
     <style>
         .image-suggestion {
@@ -48,7 +48,7 @@
     <div class="container mt-4">
         <div class="row">
             <div class="col-12">
-                <h1 class="alert alert-primary" role="alert">About Us – OceanSide Rentals</h1>
+                <h1 class="alert alert-primary" role="alert">OceanSide Rentals</h1>
             </div>
         </div>
         <div class="row mb-4">
@@ -60,7 +60,7 @@
         </div>
         <div class="row">
             <div class="col-lg-16">
-                <h4>At OceanSide Rentals</h4>
+                <h4>About us</h4>
                 <p>We believe your vacation should be as effortless and relaxing as the waves on the shore.
                     <strong>Specialized</strong> in seaside accommodations, we provide carefully selected rentals that combine comfort, style, and the unique charm of coastal living.</p>
                         <div class="Commentaire w-100">
