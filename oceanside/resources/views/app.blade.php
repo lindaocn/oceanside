@@ -18,7 +18,8 @@
       <li class="nav-item">
         <a class="nav-link" href="">Login</a>
               <li class="nav-item active">
-        <a class="nav-link" href="">About Us</a>
+                
+        <a class="nav-link" href="{{ route('aboutus') }}">About Us</a>
       </li>
     </ul>
   </div>
