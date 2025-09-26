@@ -9,7 +9,6 @@
     <style>
         .image-suggestion {
             background: linear-gradient(135deg, #e3f2fd, #f0f8ff);
-            border: 2px dashed #008cffff;
             border-radius: 10px;
             padding: 1.5rem;
             margin: 1rem 0;
@@ -55,7 +54,7 @@
         <div class="row mb-4">
             <div class="col-12">
                 <div class="image-suggestion">
-                    <img src="/oceanside/resources/views/Images/camping-villes-proche-nice.webp" class="img-fluid rounded" alt="Camping near Nice">
+                    <img src="https://www.rivesduloup.com/wp-content/uploads/2020/06/camping-villes-proche-nice.jpg" class="img-fluid rounded" alt="Camping near Nice">
                 </div>
             </div>
         </div>
@@ -76,29 +75,34 @@
             <div class="row g-4">
                 <div class="col-md-6">
                     <div class="image-suggestion">
-                        <div class="suggestion-text">LOCALISATION</div>
-                        <div class="suggestion-desc">Vue aérienne de la plage</div>
+<img src="https://cache.marriott.com/is/image/marriotts7prod/tx-mrymb-exterior-23191:Feature-Hor?wid=1920&fit=constrain" class="img-fluid rounded" alt="">
                     </div>
                     <p><strong>Prime locations</strong> just steps from the beach.</p>
                 </div>
                 <div class="col-md-6">
                     <div class="image-suggestion">
-                        <div class="suggestion-text">CONFORT</div>
-                        <div class="suggestion-desc">Salon moderne et équipé</div>
+        <img src="https://media.gettyimages.com/id/1254277224/fr/photo/mur-de-pierre-de-roche-de-montagne-dans-lint%C3%A9rieur-luxueux-de-chambre-principale.jpg?s=612x612&w=0&k=20&c=t6Ivi4AaJGBb2jx8UK82qHrJ1lUL66-BDr38wZ3gLVc=" 
+             class="rounded mw-100"
+             style="width: 600px; height: 220px; object-fit: cover;"
+             alt="Chambre luxueuse avec mur en pierre">
                     </div>
                     <p><strong>Fully equipped homes</strong> designed for comfort and convenience.</p>
                 </div>
                 <div class="col-md-6">
                     <div class="image-suggestion">
-                        <div class="suggestion-text">SERVICE</div>
-                        <div class="suggestion-desc">Équipe accueillante</div>
+        <img src="https://media.gettyimages.com/id/1157320976/fr/photo/homme-daffaires-ayant-une-pause-d%C3%A9jeuner.jpg?s=612x612&w=0&k=20&c=fhOg5icKVvpNh5_ubUSME4xHGghSD9D99S4kTmjd4oU="
+             class="rounded mw-100"
+             style="width: 600px; height: 220px; object-fit: cover;"
+             alt="Chambre luxueuse avec mur en pierre">
                     </div>
                     <p><strong>A dedicated team</strong> always ready to make your stay seamless.</p>
                 </div>
                 <div class="col-md-6">
                     <div class="image-suggestion">
-                        <div class="suggestion-text">EXPÉRIENCE</div>
-                        <div class="suggestion-desc">Famille heureuse en vacances</div>
+        <img src="https://media.gettyimages.com/id/1227552766/fr/photo/les-vacances-d%C3%A9t%C3%A9-sont-des-jours-heureux.jpg?s=612x612&w=0&k=20&c=dROez6doxx_SpeLOzU5mXi8EXaAX6la3QKYhprZazk0=" 
+             class="rounded mw-100"
+             style="width: 600px; height: 220px; object-fit: cover;"
+             alt="Chambre luxueuse avec mur en pierre">
                     </div>
                     <p><strong>We're more than just rentals</strong> — we're your trusted partner for coastal escapes.</p>
                 </div>
