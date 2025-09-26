@@ -3,9 +3,12 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\RentalController;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/aboutus', function () {
+    return view('rentals.aboutus');
+
+
+})->name('aboutus');
+
 
 Route::prefix('rentals')->name('rentals.')->group(function () {
     // show
