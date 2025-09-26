@@ -17,7 +17,7 @@
                                 {{ $rental->nomber_of_rooms }} rooms<br>
                                 {{ $rental->description }}<br>
                                 {{ $rental->equipment }}<br>
-                                {{ $rental->contact_info }}
+                                <a href="mailto:{{ $rental->contact_info }}"> {{ $rental->contact_info }}</a>
                             </p>
                         </div>
                     </div>
