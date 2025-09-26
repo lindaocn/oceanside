@@ -40,6 +40,9 @@
             border-radius: 10px;
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
         }
+        .row{
+                    text-align: center;
+        }
     </style>
 </head>
 <body>
@@ -57,19 +60,16 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-8">
+            <div class="col-lg-16">
                 <h4>At OceanSide Rentals</h4>
                 <p>We believe your vacation should be as effortless and relaxing as the waves on the shore.
                     <strong>Specialized</strong> in seaside accommodations, we provide carefully selected rentals that combine comfort, style, and the unique charm of coastal living.</p>
-
-            </div>
-            <div class="col-lg-4 d-flex align-items-center">
-                <div class="Commentaire w-100">
+                        <div class="Commentaire w-100">
                     <h6><strong>Our mission is simple:</strong></h6>
                     <p>To offer travelers a home away from home, where every detail is designed to create unforgettable memories.<br>
                         Whether you're looking for a peaceful retreat, a family-friendly getaway, or an adventure by the ocean, we've got the perfect spot for you.</p>
                 </div>
-            </div>
+
         </div>
         <div class="feature-list mt-5">
             <h6 class="mb-4"><strong>With OceanSide Rentals</strong>, you can expect:</h6>
