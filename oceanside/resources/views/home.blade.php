@@ -113,7 +113,7 @@
                 <a href="{{ route('rentals.list') }}" class="btn btn-primary w-100 mb-2">See our rentals</a>
             </div>
             <div class="col-md-6">
-                <a href="{{ route('dashboard') }}" class="btn btn-outline-secondary w-100">Not a member? Create an account</a>
+                <a href="{{ route('register') }}" class="btn btn-outline-secondary w-100">Not a member? Create an account</a>
             </div>
         </div>
     </div>
