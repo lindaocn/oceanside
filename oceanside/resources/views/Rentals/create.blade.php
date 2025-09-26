@@ -63,7 +63,7 @@
 
     <div class="row mt-4">
         <div class="col-md-5">
-            <input type="submit" class="btn btn-success" value="Create a new rental">
+            <input type="submit" class="btn btn-success" value="Create this rental">
             <a href="{{ route('rentals.list') }}" class="btn btn-primary">Back to all rentals</a>
         </div>
     </div>  

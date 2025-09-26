@@ -25,4 +25,9 @@
             @endforeach
         </div>
     </div>
+            <div class="row mt-4 justify-content-center">
+                <div class="col-md-6 d-flex justify-content-center">
+                    <a href="{{ route('rentals.create') }}" class="btn btn-success w-100 mb-2">Create a Rental</a>
+                </div>
+            </div>
 @endsection
