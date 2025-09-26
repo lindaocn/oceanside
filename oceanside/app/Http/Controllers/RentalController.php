@@ -7,6 +7,12 @@ use Illuminate\Http\Request;
 
 class RentalController extends Controller
 {
+    public function dashboard()
+{
+    $rentals = Rentals::all(); // oder auth()->user()->rentals
+    return view('dashboard', compact('rentals'));
+}
+
     public function show($id)
     {
         $rentals = Rentals::findOrFail($id);
@@ -66,6 +72,8 @@ class RentalController extends Controller
         $rentals->delete();
         return 'Rental deleted!' . redirect()->route('rentals.list');
     }
+
+
 
 
 }
