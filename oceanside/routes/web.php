@@ -3,10 +3,10 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\RentalController;
 
-Route::get('/aboutus', function () {
-    return view('rentals.aboutus');
+// Route::get('/aboutus', function () {
+//     return view('rentals.aboutus');
 
-})->name('aboutus');
+// })->name('aboutus');
 
 Route::get('/', function () {
     return view('home');

@@ -19,8 +19,6 @@
         <a class="nav-link" href="">Login</a>
               <li class="nav-item active">
 
-        <a class="nav-link" href="{{ route('aboutus') }}">About Us</a>
-        </li>
         <a class="nav-link" href="{{ route('rentals.list') }}">Rentals</a>
       </li>
     </ul>
