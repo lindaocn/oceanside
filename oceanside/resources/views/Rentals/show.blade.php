@@ -22,17 +22,22 @@
                 </a>
             </p>
         </div>
-    </div>
-    <!-- Buttons unten links -->
-    <div class="row mt-4">
-        <div class="col-md-5">
-            <div class="d-flex gap-2">
-                <a href="{{ route('rentals.list') }}" class="btn btn-primary">Back to all rentals</a>
-                <a href="{{ route('rentals.edit', ['id' => $rentals->id]) }}" class="btn btn-warning text-white">Edit this rental</a>
-                <a href="{{ route('rentals.delete', ['id' => $rentals->id]) }}" class="btn btn-danger">Delete this rental</a>
-            </div>
-        </div>
+        <a href="{{ route('rentals.list') }}" class="btn btn-primary">Back to all rentals</a>
     </div>
 </div>
+    <!-- Buttons unten links -->
+    @if(Auth::check() && Auth::user()->isAdmin())
+
+        <div class="row mt-4">
+            <div class="col-md-5">
+                <div class="d-flex gap-2">
+                    <a href="{{ route('rentals.edit', ['id' => $rentals->id]) }}" class="btn btn-warning text-white">Edit this rental</a>
+                    <a href="{{ route('rentals.delete', ['id' => $rentals->id]) }}" class="btn btn-danger">Delete this rental</a>
+                </div>
+            </div>
+        </div>
+    @endif
 
 @endsection
+
+

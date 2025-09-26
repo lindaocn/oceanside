@@ -4,6 +4,7 @@ use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\RentalController;
 
+
 // Route::get('/aboutus', function () {
 //     return view('rentals.aboutus');
 
@@ -29,6 +30,10 @@ Route::prefix('rentals')->name('rentals.')->group(function () {
     Route::get('edit/{id}', [RentalController::class, 'edit'])->name('edit');
     // delete
     Route::POST('update/{id}', [RentalController::class, 'update'])->name('update');
+});
+
+Route::prefix('rentals')->name('rentals.')->group(function () {
+    Route::get('all', [RentalController::class, 'list_all'])->name('all');
 });
 
 Route::get('/dashboard', [RentalController::class, 'dashboard'])
